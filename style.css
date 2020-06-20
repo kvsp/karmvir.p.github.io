@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #1B374C;
+  Height: 150px;
+  max-width: 100%;
+  padding: 20px;
+  opacity: 1.0;
+  clear: both;
+  }
+.h {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+    }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: auto;
+  background-color: lightgray;
+  opacity: 1.0;
+  }
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* search bar in navigation bar */
+
+.topnav .search-container {
+  float: right;
+  margin-right: 10px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: gray;
+  color: white  ;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+
+}
+/* Left and right column */
+.column.side {
+  width: 40%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+  clear: right;
+  display: inline-block;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .header, .column.side, .column.middle {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header, .column.side, .column.middle {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Style the footer */
+.footer {
+  background-color: #1B374C;
+  color: white;
+  height: 100px;
+  margin-bottom: auto;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  }
+.fl {
+  float: right;
+  margin-right: 15px;
+  margin-top: -20px;
+  padding: 10px;
+  display: inline-block;
+  border-collapse: collapse;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+/*Paragraph font*/
+.p {
+  font-size: 18px;
+
+}
+.a {
+  text-decoration: none;
+}
+.a:hover {
+  color: red;
+}
+.im1 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+/*biography heading*/
+.hh {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin-top: auto;
+
+  font-family: serif;
+    }
+/*biography content*/
+
+.bioleft {
+  float: left;
+  width: 40%;
+  clear: left;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: -17px
+  }
+/*Experience*/
